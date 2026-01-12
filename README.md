@@ -19,8 +19,8 @@ Sistem Informasi Blog Mahasiswa adalah sebuah platform Content Management System
 
 ***2. Hak Akses***
 
-Area Manajemen (Secure Zone): Area khusus (Login) untuk Admin dan Pengelola.
-Area Publik (Public Zone): Halaman depan untuk pengunjung umum mencari dan membaca artikel.
+- Area Manajemen (Secure Zone): Area khusus (Login) untuk Admin dan Pengelola.
+- Area Publik (Public Zone): Halaman depan untuk pengunjung umum mencari dan membaca artikel.
 
 ***3. Fitur Utama***
 
@@ -37,19 +37,17 @@ Area Publik (Public Zone): Halaman depan untuk pengunjung umum mencari dan memba
 ***5. Cara Instalasi (Local Development)
 Jika Anda ingin menjalankan project ini di komputer lokal, ikuti langkah berikut:***
 Clone Repository
-
 git clone
 
 ***https://github.com/Puspap30/blogPendidikan***
 ***https://github.com/Puspap30/blogPendidikan***
-
 cd blogPendidikan
 
 ***5. Install Dependencies :***
 
 composer install npm install && npm run build
 
-Setup Environment Salin file .env.example menjadi .env dan sesuaikan database Anda:
+***Setup Environment Salin file .env.example menjadi .env dan sesuaikan database Anda:***
 
 cp .env.example .env
 
