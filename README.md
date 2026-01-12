@@ -1,3 +1,69 @@
+Identitas Mahasiswa
+Nama : Puspa Permata
+NIM : C2383207026
+Kelas : PTI5B
+Matakuliah : Pemrograman Internet
+Dosen Pengampu : Taofiq Muhammad, M.Kom
+Kampus : Universitas Muhammadiyah Tasikmalaya
+
+Deskripsi Aplikasi
+Sistem Informasi Blog Mahasiswa adalah sebuah platform Content Management System (CMS) modern yang dirancang untuk memfasilitasi publikasi artikel digital secara efisien. Aplikasi ini dibangun menggunakan Laravel 12 dengan fokus pada keamanan dan manajemen konten yang terstruktur.
+
+Hak Akses
+Area Manajemen (Secure Zone): Area khusus (Login) untuk Admin dan Pengelola.
+Area Publik (Public Zone): Halaman depan untuk pengunjung umum mencari dan membaca artikel.
+
+Fitur Utama
+Multi-Role: Admin (Kontrol Penuh) & Penulis (Manajemen Artikel Sendiri).
+Manajemen Artikel (CRUD): Pembuatan artikel dengan upload gambar & integrasi CKEditor 5.
+Publishing System: Fitur Toggle untuk Draft atau Published.
+Responsive Design: Tampilan nyaman diakses melalui browser HP maupun Laptop.
+
+Informasi Sistem
+Framework: Laravel 12.0
+PHP Version: ^8.2
+Database: MySQL / MariaDB
+
+Cara Instalasi (Local Development)
+Jika Anda ingin menjalankan project ini di komputer lokal, ikuti langkah berikut:
+
+Clone Repository
+git clone
+https://github.com/Puspap30/blogPendidikan
+https://github.com/Puspap30/blogPendidikan
+cd blogPendidikan
+Install Dependencies :
+
+composer install npm install && npm run build
+
+Setup Environment Salin file .env.example menjadi .env dan sesuaikan database Anda:
+
+cp .env.example .env
+
+Generate Key :
+
+php artisan key:generate
+
+Migrasi Database & Seeding (Membuat tabel dan akun demo otomatis):
+
+php artisan migrate:fresh --seed
+
+Jalankan Aplikasi php artisan serve
+
+Buka http://localhost:8000 di browser Anda. 
+http://127.0.0.1:8000
+
+Akun Demo (Login)
+
+Email: admin
+Password: admin123
+
+Kontak
+Email: puspapermata975@gmail.com
+GitHub: Puspap30
+
+Copyright © 2026 Puspa Permata - Project UAS Pemrograman Internet FKIP UMTAS
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
