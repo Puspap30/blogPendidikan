@@ -66,9 +66,11 @@ Buka http://localhost:8000 di browser Anda.
 http://127.0.0.1:8000
 
 ***9. Akun Demo (Login)***
+**kalo tidak bisa digunakan otomatis sandinya buat manual saja di database admins input password dan email**
 
-Email: admin
-Password: admin123
+**Email: admin**
+
+**Password: admin123**
 
 ***10. Kontak***
 Email: puspapermata975@gmail.com
