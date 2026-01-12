@@ -39,8 +39,9 @@ Jika Anda ingin menjalankan project ini di komputer lokal, ikuti langkah berikut
 Clone Repository
 git clone
 
-***https://github.com/Puspap30/blogPendidikan***
-***https://github.com/Puspap30/blogPendidikan***
+***https://github.com/Puspap30/blogPendidikan.git***
+***https://github.com/Puspap30/blogPendidikan.git***
+
 cd blogPendidikan
 
 ***5. Install Dependencies :***
