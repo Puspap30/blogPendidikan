@@ -1,28 +1,46 @@
 Identitas Mahasiswa
+
 Nama : Puspa Permata
+
 NIM : C2383207026
+
 Kelas : PTI5B
+
 Matakuliah : Pemrograman Internet
+
 Dosen Pengampu : Taofiq Muhammad, M.Kom
+
 Kampus : Universitas Muhammadiyah Tasikmalaya
 
+
 Deskripsi Aplikasi
+
 Sistem Informasi Blog Mahasiswa adalah sebuah platform Content Management System (CMS) modern yang dirancang untuk memfasilitasi publikasi artikel digital secara efisien. Aplikasi ini dibangun menggunakan Laravel 12 dengan fokus pada keamanan dan manajemen konten yang terstruktur.
 
 Hak Akses
+
 Area Manajemen (Secure Zone): Area khusus (Login) untuk Admin dan Pengelola.
 Area Publik (Public Zone): Halaman depan untuk pengunjung umum mencari dan membaca artikel.
 
 Fitur Utama
+
 Multi-Role: Admin (Kontrol Penuh) & Penulis (Manajemen Artikel Sendiri).
+
 Manajemen Artikel (CRUD): Pembuatan artikel dengan upload gambar & integrasi CKEditor 5.
+
 Publishing System: Fitur Toggle untuk Draft atau Published.
+
 Responsive Design: Tampilan nyaman diakses melalui browser HP maupun Laptop.
 
+
 Informasi Sistem
+
 Framework: Laravel 12.0
+
 PHP Version: ^8.2
+
 Database: MySQL / MariaDB
+
 
 Cara Instalasi (Local Development)
 Jika Anda ingin menjalankan project ini di komputer lokal, ikuti langkah berikut:
